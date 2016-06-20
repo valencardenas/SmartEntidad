@@ -1,0 +1,54 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linearLayoutStyle.vertical"
+    tools:context="com.example.valentina.smartestudiantes.ModificarProfesorFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        style="@style/textViewStyle.Title"
+        android:text="@string/smart" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            style="@style/textViewStyle.Content.otros"
+            android:text="@string/Entidad"/>
+        <TextView
+            style="@style/textViewStyle.Content.otros"
+            android:text="-"/>
+        <TextView
+            style="@style/textViewStyle.Content.otros"
+            android:text="@string/profesores"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        style="@style/linearLayoutStyle.horizontal"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/textViewStyle.Content"
+            android:text="@string/contrato"/>
+        <EditText
+            style="@style/editTextStyle"
+            android:id="@+id/eNcontratoP"/>
+    </LinearLayout>
+    <LinearLayout
+        style="@style/linearLayoutStyle.horizontal"
+        android:gravity="center" >
+    <Button
+        style="@style/buttonStyle"
+        android:text="@string/modificar"
+        android:layout_gravity="center"
+        android:id="@+id/bModificarP1"
+        android:layout_marginRight="25dp"/>
+        <Button
+            style="@style/buttonStyle"
+            android:text="@string/cancelar"
+            android:layout_gravity="center"
+            android:id="@+id/bCancelarP4"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,96 @@
+<resources>
+    <string name="app_name">SmartSearch</string>
+    <string name="smart">Smart</string>
+    <string name="Entidad">Entidad</string>
+
+
+    <string name="usuario">Usuario:</string>
+    <string name="contra">Contraseña:</string>
+
+    <string name="bienvenido">Bienvenido</string>
+
+    <string name="salones">Clases y Salones</string>
+    <string name="salon">Salón</string>
+    <string name="estudiantes">Estudiantes</string>
+    <string name="estud">Estudiante</string>
+    <string name="Nestuds">Total estudiantes matriculados: </string>
+    <string name="profesores">Profesores</string>
+    <string name="profe">Profesor</string>
+    <string name="Nprofes">Total profesores contratados: </string>
+
+
+    <string name="ingresar">Ingresar</string>
+    <string name="agregar">Agregar</string>
+    <string name="eliminar">Eliminar</string>
+    <string name="modificar">Modificar</string>
+    <string name="cancelar">Cancelar</string>
+    <string name="aceptar">Aceptar</string>
+    <string name="horario">Horario: </string>
+    <string name="h1">06:00-07:30</string>
+    <string name="h2">07:30-09:00</string>
+    <string name="h3">09:00-10:30</string>
+    <string name="h4">10:30-12:00</string>
+    <string name="h5">12:00-13:30</string>
+    <string name="h6">13:30-15:00</string>
+    <string name="h7">15:00-16:30</string>
+    <string name="h8">16:30-18:00</string>
+    <string name="h9">18:00-19:30</string>
+    <string name="h10">19:30-21:00</string>
+
+
+    <string name="libros">Libros</string>
+    <string name="libr">Libro</string>
+    <string name="l1">Libro 1</string>
+    <string name="l2">Libro 2</string>
+    <string name="l3">Libro 3</string>
+    <string name="l4">Libro 4</string>
+
+
+    <string name="nombre">Nombres:</string>
+    <string name="apellidos">Apellidos: </string>
+    <string name="documento">Documento de identidad:</string>
+    <string name="correo">Correo:</string>
+    <string name="tel">Teléfono:</string>
+    <string name="cel">Celular:</string>
+    <string name="libro">Libro:</string>
+    <string name="contrato">Número de contrato:</string>
+    <string name="finalizacion">Fecha finalización de contrato:</string>
+
+    <string name="alerta">Confirmar</string>
+    <string name="AgrSa">¿Seguro que desea programar la clase?</string>
+    <string name="EliSa">¿Seguro que desea eliminar la clase?</string>
+
+    <string name="AgrEs">¿Seguro que desea agregar el nuevo estudiante?</string>
+    <string name="MofEs">¿Seguro que desea modificar los datos del estudiante?</string>
+    <string name="EliEs">¿Seguro que desea elimianar el estudiante?</string>
+
+
+    <string name="AgrPr">¿Seguro que desea agregar el nuevo profesor?</string>
+    <string name="MofPr">¿Seguro que desea modificar los datos del profesor?</string>
+    <string name="EliPr">¿Seguro que desea elimianar el profesor ?</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="abierto">Abierto</string>
+    <string name="cerrado">Cerrado</string>
+
+
+    <string name="idioma">Idioma predeterminado</string>
+    <string name="ingles">Ingles</string>
+    <string name="espa">Español</string>
+    <string name="cambioI">Cambiar imagen</string>
+    <string name="cambio">Cambiar contraseña</string>
+    <string name="nuevac">Nueva contraseña:</string>
+    <string name="repitac">Cofirme contraseña:</string>
+
+    <string name="guardoE">Se ha guardado el estudiante.</string>
+    <string name="eliminadoE">Se ha eliminado el estudiante.</string>
+    <string name="modificadoE">Se han modificados los datos  del estudiante.</string>
+
+    <string name="guardoP">Se ha guardado el profesor.</string>
+    <string name="eliminadoP">Se ha eliminado el profesor.</string>
+    <string name="modificadoP">Se han modificados los datos  del profesor.</string>
+
+
+</resources>

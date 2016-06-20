@@ -1,0 +1,42 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linearLayoutStyle.vertical"
+    tools:context="com.example.valentina.smartestudiantes.InfoDePersoFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        style="@style/textViewStyle.Title"
+        android:text="@string/smart" />
+
+
+    <TextView
+        style="@style/textViewStyle.Content.otros"
+        android:text="@string/Entidad"/>
+
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        style="@style/linearLayoutStyle.horizontal"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/textViewStyle.Content"
+            android:text="@string/Nestuds"/>
+        <TextView
+            style="@style/textViewStyle.Content"
+            android:id="@+id/eNestu"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        style="@style/linearLayoutStyle.horizontal"
+        android:orientation="horizontal">
+        <TextView
+            style="@style/textViewStyle.Content"
+            android:text="@string/Nprofes"/>
+        <TextView
+            style="@style/textViewStyle.Content"
+            android:id="@+id/eNprofes"/>
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,105 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.valentina.smartestudiantes.ModificarProfesor1Fragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <ScrollView
+        style="@style/scrollViewStyle">
+        <LinearLayout
+            style="@style/linearLayoutStyle.vertical">
+            <TextView
+                style="@style/textViewStyle.Title"
+                android:text="@string/smart" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    style="@style/textViewStyle.Content.otros"
+                    android:text="@string/Entidad"/>
+                <TextView
+                    style="@style/textViewStyle.Content.otros"
+                    android:text="-"/>
+                <TextView
+                    style="@style/textViewStyle.Content.otros"
+                    android:text="@string/profesores"/>
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:layout_marginTop="40dp"
+                android:text="@string/nombre"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eNombreE1"/>
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/apellidos"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eApellidosE1"/>
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/documento"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eIDE1"/>
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/correo"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eCorreoE1"/>
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/tel"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eTelE1"/>
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/cel"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eCelE1"/>
+
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/finalizacion"/>
+
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eFecha1"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cambiar"
+                android:id="@+id/bFechaP1" />
+
+            <LinearLayout
+                style="@style/linearLayoutStyle.horizontal"
+                android:gravity="center">
+
+                <Button
+                    style="@style/buttonStyle"
+                    android:text="@string/modificar"
+                    android:layout_marginRight="20dp"
+                    android:id="@+id/bModificarP2"/>
+                <Button
+                    style="@style/buttonStyle"
+                    android:text="@string/cancelar"
+                    android:id="@+id/bCancelarP2"/>
+            </LinearLayout>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+</FrameLayout>

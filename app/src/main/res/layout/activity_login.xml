@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linearLayoutStyle.vertical"
+    android:orientation="vertical"
+    tools:context="com.example.valentina.smartestudiantes.LoginActivity">
+
+
+        <TextView
+            style="@style/textViewStyle.Title"
+            android:text="@string/smart" />
+
+
+        <TextView
+            style="@style/textViewStyle.Content.otros"
+            android:text="@string/Entidad"/>
+
+        <LinearLayout
+            android:layout_marginTop="50dp"
+            style="@style/linearLayoutStyle.horizontal"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/usuario"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/suario"/>
+        </LinearLayout>
+
+        <LinearLayout
+            style="@style/linearLayoutStyle.horizontal"
+            android:orientation="horizontal">
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/contra"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eContra"/>
+        </LinearLayout>
+
+        <Button
+            android:layout_marginTop="50dp"
+            style="@style/buttonStyle"
+            android:text="@string/ingresar"
+            android:layout_gravity="center"
+            android:id="@+id/bIngresar"
+            android:onClick="Ingresar"/>
+
+
+</LinearLayout>

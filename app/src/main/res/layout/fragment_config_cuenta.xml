@@ -1,0 +1,23 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linearLayoutStyle.vertical"
+    tools:context="com.example.valentina.smartestudiantes.ConfigCuentaFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        style="@style/textViewStyle.Title"
+        android:text="@string/smart" />
+
+
+    <TextView
+        style="@style/textViewStyle.Content.otros"
+        android:text="@string/Entidad"/>
+
+    <ListView
+        style="@style/listViewStyle"
+        android:id="@+id/lConfig"></ListView>
+
+
+
+
+</LinearLayout>

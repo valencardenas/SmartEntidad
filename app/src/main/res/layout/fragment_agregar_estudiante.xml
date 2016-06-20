@@ -1,0 +1,141 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    tools:context="com.example.valentina.smartestudiantes.AgregarEstudianteFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <ScrollView
+        style="@style/scrollViewStyle">
+        <LinearLayout
+            style="@style/linearLayoutStyle.vertical">
+            <TextView
+                style="@style/textViewStyle.Title"
+                android:text="@string/smart" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center">
+
+                <TextView
+                    style="@style/textViewStyle.Content.otros"
+                    android:text="@string/Entidad"/>
+                <TextView
+                    style="@style/textViewStyle.Content.otros"
+                    android:text="-"/>
+                <TextView
+                    style="@style/textViewStyle.Content.otros"
+                    android:text="@string/estudiantes"/>
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:layout_marginTop="40dp"
+                android:text="@string/nombre"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eNombreE"/>
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/apellidos"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eApellidosE"/>
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/documento"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eIDE"/>
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/correo"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eCorreoE"/>
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/tel"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eTelE"/>
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/cel"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eCelE"/>
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/libro"/>
+            <LinearLayout
+                style="@style/linearLayoutStyle.horizontal"
+                android:layout_gravity="center_horizontal">
+                <CheckBox
+                   style="@style/checkBoxStyle"
+                    android:text="@string/l1"
+                    android:id="@+id/chLibro1"/>
+                <CheckBox
+
+                    android:text="@string/l2"
+                    style="@style/checkBoxStyle"
+                    android:id="@+id/chLibro2"/>
+            </LinearLayout>
+            <LinearLayout
+                style="@style/linearLayoutStyle.horizontal"
+                android:layout_gravity="center_horizontal">
+                <CheckBox
+                    style="@style/checkBoxStyle"
+                    android:text="@string/l3"
+                    android:id="@+id/chLibro3"/>
+                <CheckBox
+
+                    android:text="@string/l4"
+                    style="@style/checkBoxStyle"
+                    android:id="@+id/chLibro4"/>
+            </LinearLayout>
+
+
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/contrato"/>
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eNcontratoE"/>
+            <TextView
+                style="@style/textViewStyle.Content"
+                android:text="@string/finalizacion"/>
+
+            <EditText
+                style="@style/editTextStyle"
+                android:id="@+id/eFecha"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="cambiar"
+                android:id="@+id/bFecha" />
+
+        <LinearLayout
+            style="@style/linearLayoutStyle.horizontal"
+            android:gravity="center">
+
+            <Button
+               style="@style/buttonStyle"
+                android:text="@string/agregar"
+                android:layout_marginRight="20dp"
+                android:id="@+id/bNuevoestudiante"/>
+            <Button
+                style="@style/buttonStyle"
+                android:text="@string/cancelar"
+                android:id="@+id/bCancelarE1"/>
+        </LinearLayout>
+        </LinearLayout>
+
+
+
+    </ScrollView>
+
+
+</RelativeLayout>

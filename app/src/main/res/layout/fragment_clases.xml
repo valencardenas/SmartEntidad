@@ -1,0 +1,52 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    style="@style/linearLayoutStyle.vertical"
+    tools:context="com.example.valentina.smartestudiantes.ClasesFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        style="@style/textViewStyle.Title"
+        android:text="@string/smart" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <TextView
+            style="@style/textViewStyle.Content.otros"
+            android:text="@string/Entidad"/>
+        <TextView
+            style="@style/textViewStyle.Content.otros"
+            android:text="-"/>
+        <TextView
+            style="@style/textViewStyle.Content.otros"
+            android:text="@string/libro"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+        <Button
+            style="@style/buttonStyle"
+            android:text="@string/agregar"
+            android:layout_marginRight="@dimen/activity_horizontal_margin"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+        <Button
+            style="@style/buttonStyle"
+            android:text="@string/eliminar"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"/>
+
+
+    </LinearLayout>
+
+    <ListView
+        style="@style/listViewStyle"
+        android:id="@+id/lhorarios"></ListView>
+
+</LinearLayout>
