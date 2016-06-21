@@ -77,22 +77,7 @@ public class AgregarEstudianteFragment extends Fragment {
         @Override
         public void onClick(View v) {
 
-            String name = nombre.getText().toString();
-            String apell = apellidos.getText().toString();
-            String ident = identidad.getText().toString();
-            String mail = correo.getText().toString();
-            String tele = tel.getText().toString();
-            String cell = cel.getText().toString();
-            String contra = contrato.getText().toString();
-            String fech = fecha.getText().toString();
 
-
-
-
-            Firebase firebd = firebasedatos.child("estudiante " + id);
-            EstudiantesClass Estudiante= new EstudiantesClass(String.valueOf(id),name,apell,ident,mail,tele,cell,contra,fech);
-            firebd.setValue(Estudiante);
-            id++;
 
             dialogo1 = new AlertDialog.Builder(getActivity());
             dialogo1.setTitle("Confirmación");
@@ -119,6 +104,20 @@ public class AgregarEstudianteFragment extends Fragment {
     }
 
     public void aceptar() {
+        String name = nombre.getText().toString();
+        String apell = apellidos.getText().toString();
+        String ident = identidad.getText().toString();
+        String mail = correo.getText().toString();
+        String tele = tel.getText().toString();
+        String cell = cel.getText().toString();
+        String contra = contrato.getText().toString();
+        String fech = fecha.getText().toString();
+
+        Firebase firebd = firebasedatos.child("estudiante " + id);
+        EstudiantesClass Estudiante= new EstudiantesClass(String.valueOf(id),name,apell,ident,mail,tele,cell,contra,fech);
+        firebd.setValue(Estudiante);
+        id++;
+
         Toast t=Toast.makeText(getActivity().getApplicationContext(),getResources().getString(R.string.guardoE), Toast.LENGTH_SHORT);
         t.show();
         Fragment fragment = null;

@@ -48,25 +48,29 @@
                 android:text="@string/documento"/>
             <EditText
                 style="@style/editTextStyle"
+                android:inputType="number"
                 android:id="@+id/eIDE"/>
             <TextView
                 style="@style/textViewStyle.Content"
                 android:text="@string/correo"/>
             <EditText
                 style="@style/editTextStyle"
+                android:inputType="textEmailAddress"
                 android:id="@+id/eCorreoE"/>
             <TextView
                 style="@style/textViewStyle.Content"
                 android:text="@string/tel"/>
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eTelE"/>
+                android:id="@+id/eTelE"
+                android:inputType="phone"/>
             <TextView
                 style="@style/textViewStyle.Content"
                 android:text="@string/cel"/>
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eCelE"/>
+                android:id="@+id/eCelE"
+                android:inputType="phone"/>
             <TextView
                 style="@style/textViewStyle.Content"
                 android:text="@string/libro"/>
@@ -103,7 +107,8 @@
                 android:text="@string/contrato"/>
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eNcontratoE"/>
+                android:id="@+id/eNcontratoE"
+                android:inputType="number"/>
             <TextView
                 style="@style/textViewStyle.Content"
                 android:text="@string/finalizacion"/>
@@ -115,7 +120,8 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:text="cambiar"
-                android:id="@+id/bFecha" />
+                android:id="@+id/bFecha"
+                android:inputType="date"/>
 
         <LinearLayout
             style="@style/linearLayoutStyle.horizontal"

@@ -49,25 +49,31 @@
                 android:text="@string/documento"/>
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eIDE1"/>
+                android:id="@+id/eIDE1"
+                android:inputType="number"/>
             <TextView
                 style="@style/textViewStyle.Content"
-                android:text="@string/correo"/>
+                android:text="@string/correo"
+                />
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eCorreoE1"/>
+                android:id="@+id/eCorreoE1"
+                android:inputType="textEmailAddress"/>
             <TextView
                 style="@style/textViewStyle.Content"
                 android:text="@string/tel"/>
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eTelE1"/>
+                android:id="@+id/eTelE1"
+                android:inputType="phone"
+                />
             <TextView
                 style="@style/textViewStyle.Content"
                 android:text="@string/cel"/>
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eCelE1"/>
+                android:id="@+id/eCelE1"
+                android:inputType="phone"/>
 
             <TextView
                 style="@style/textViewStyle.Content"
@@ -75,7 +81,8 @@
 
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eFecha1"/>
+                android:id="@+id/eFecha1"
+                android:inputType="date"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"

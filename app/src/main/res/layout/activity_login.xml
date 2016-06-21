@@ -35,7 +35,8 @@
                 android:text="@string/contra"/>
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eContra"/>
+                android:id="@+id/eContra"
+                android:inputType="numberPassword"/>
         </LinearLayout>
 
         <Button

@@ -33,7 +33,8 @@
             android:text="@string/contrato"/>
         <EditText
             style="@style/editTextStyle"
-            android:id="@+id/eNcontratoE1"/>
+            android:id="@+id/eNcontratoE1"
+            android:inputType="number"/>
     </LinearLayout>
     <LinearLayout
         style="@style/linearLayoutStyle.horizontal"

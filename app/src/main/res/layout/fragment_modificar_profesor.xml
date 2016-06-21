@@ -30,7 +30,8 @@
         android:orientation="horizontal">
         <TextView
             style="@style/textViewStyle.Content"
-            android:text="@string/contrato"/>
+            android:text="@string/contrato"
+            android:inputType="number"/>
         <EditText
             style="@style/editTextStyle"
             android:id="@+id/eNcontratoP"/>

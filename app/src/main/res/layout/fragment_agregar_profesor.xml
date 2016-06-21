@@ -48,39 +48,45 @@
                 android:text="@string/documento"/>
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eIDE"/>
+                android:id="@+id/eIDE"
+                android:inputType="number"/>
             <TextView
                 style="@style/textViewStyle.Content"
                 android:text="@string/correo"/>
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eCorreoE"/>
+                android:id="@+id/eCorreoE"
+                android:inputType="textEmailAddress"/>
             <TextView
                 style="@style/textViewStyle.Content"
                 android:text="@string/tel"/>
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eTelE"/>
+                android:id="@+id/eTelE"
+                android:inputType="phone"/>
             <TextView
                 style="@style/textViewStyle.Content"
                 android:text="@string/cel"/>
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eCelE"/>
+                android:id="@+id/eCelE"
+                android:inputType="phone"/>
 
             <TextView
                 style="@style/textViewStyle.Content"
                 android:text="@string/contrato"/>
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eNcontratoE"/>
+                android:id="@+id/eNcontratoE"
+                android:inputType="number"/>
             <TextView
                 style="@style/textViewStyle.Content"
                 android:text="@string/finalizacion"/>
 
             <EditText
                 style="@style/editTextStyle"
-                android:id="@+id/eFecha"/>
+                android:id="@+id/eFecha"
+                android:inputType="date"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
